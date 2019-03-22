@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1517226072646158}
+  m_IsPrefabParent: 1
+--- !u!1 &1517226072646158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4451308140074972}
+  - component: {fileID: 114938931630346160}
+  m_Layer: 0
+  m_Name: PlayerNetworkCustom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451308140074972
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517226072646158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4253259, y: 7.008851, z: 0.3875718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114938931630346160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517226072646158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3410f8303556c024ba2d4e3f3d5554ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NetworkPort: 7777
+  m_ServerBindToIP: 0
+  m_ServerBindAddress: 
+  m_NetworkAddress: localhost
+  m_DontDestroyOnLoad: 1
+  m_RunInBackground: 1
+  m_ScriptCRCCheck: 1
+  m_MaxDelay: 0.01
+  m_LogLevel: 2
+  m_PlayerPrefab: {fileID: 0}
+  m_AutoCreatePlayer: 1
+  m_PlayerSpawnMethod: 1
+  m_OfflineScene: 
+  m_OnlineScene: Main
+  m_SpawnPrefabs:
+  - {fileID: 1618543276695554, guid: d3b8cd6d690360c4eb64f9e426c02278, type: 2}
+  - {fileID: 1193454732767500, guid: 1c9dae15f683c6b4c820cab852727d64, type: 2}
+  - {fileID: 1059858964581484, guid: 5b560dd2cbea25e47bdcfb02d9e73556, type: 2}
+  - {fileID: 1067652406802218, guid: 8e620051b9305514ba8dd6a986ea0c5c, type: 2}
+  - {fileID: 1677100915686946, guid: 82a62eea3aa46da49a27522daecdb887, type: 2}
+  - {fileID: 1847048394421294, guid: f92fd79d4f603e74e87889c472093482, type: 2}
+  - {fileID: 1048895096648168, guid: b2ca6ddbf6280e645b67d3e122cd4feb, type: 2}
+  - {fileID: 1557092813623970, guid: 87327c808bfa13248b18cc9aeceba279, type: 2}
+  - {fileID: 1919643567425862, guid: ea08762d4d03c9f4ba0535fbf02ffcfa, type: 2}
+  - {fileID: 1485827124449052, guid: 51a6509e32c5a7c47bd336185e2a3d36, type: 2}
+  - {fileID: 1013341075316358, guid: 4fdf531b8760a674781f41d2422dc1f5, type: 2}
+  - {fileID: 1359622967342172, guid: 538afb411a17b2643ae81c4e85a7bb9d, type: 2}
+  - {fileID: 1080493211146778, guid: 82a11ba2138e65041886cb6c62a55ebd, type: 2}
+  - {fileID: 1071080392142624, guid: bbfa8a9685bb02e43859a5d0816afc56, type: 2}
+  - {fileID: 1531531277443344, guid: 99b36301423694e40bc25023da1f9f83, type: 2}
+  - {fileID: 1221152658931872, guid: d19d5155fa155044d871b51675783b20, type: 2}
+  m_CustomConfig: 0
+  m_MaxConnections: 4
+  m_ConnectionConfig:
+    m_PacketSize: 1440
+    m_FragmentSize: 500
+    m_ResendTimeout: 1200
+    m_DisconnectTimeout: 2000
+    m_ConnectTimeout: 2000
+    m_MinUpdateTimeout: 10
+    m_PingTimeout: 500
+    m_ReducedPingTimeout: 100
+    m_AllCostTimeout: 20
+    m_NetworkDropThreshold: 5
+    m_OverflowDropThreshold: 5
+    m_MaxConnectionAttempt: 10
+    m_AckDelay: 33
+    m_SendDelay: 10
+    m_MaxCombinedReliableMessageSize: 100
+    m_MaxCombinedReliableMessageCount: 10
+    m_MaxSentMessageQueueSize: 512
+    m_AcksType: 1
+    m_UsePlatformSpecificProtocols: 0
+    m_InitialBandwidth: 0
+    m_BandwidthPeakFactor: 2
+    m_WebSocketReceiveBufferMaxSize: 0
+    m_UdpSocketReceiveBufferMaxSize: 0
+    m_SSLCertFilePath: 
+    m_SSLPrivateKeyFilePath: 
+    m_SSLCAFilePath: 
+    m_Channels: []
+  m_GlobalConfig:
+    m_ThreadAwakeTimeout: 1
+    m_ReactorModel: 0
+    m_ReactorMaximumReceivedMessages: 1024
+    m_ReactorMaximumSentMessages: 1024
+    m_MaxPacketSize: 2000
+    m_MaxHosts: 16
+    m_ThreadPoolSize: 1
+    m_MinTimerTimeout: 1
+    m_MaxTimerTimeout: 12000
+    m_MinNetSimulatorTimeout: 1
+    m_MaxNetSimulatorTimeout: 12000
+  m_Channels: 
+  m_UseWebSockets: 0
+  m_UseSimulator: 0
+  m_SimulatedLatency: 1
+  m_PacketLossPercentage: 0
+  m_MaxBufferedPackets: 16
+  m_AllowFragmentation: 1
+  m_MatchHost: mm.unet.unity3d.com
+  m_MatchPort: 443
+  matchName: default
+  matchSize: 4
+  isNetworkActive: 0
+  matchMaker: {fileID: 0}
+  players:
+  - {fileID: 1847048394421294, guid: f92fd79d4f603e74e87889c472093482, type: 2}
+  - {fileID: 1919643567425862, guid: ea08762d4d03c9f4ba0535fbf02ffcfa, type: 2}
+  - {fileID: 1048895096648168, guid: b2ca6ddbf6280e645b67d3e122cd4feb, type: 2}
+  chosenCharacter: 0
