@@ -4,19 +4,11 @@
 
 ## 游戏截图
 
-### 初始界面
-
-![初始界面](GameScreenShots/初始界面.png)
-
 ### 多人游戏
 
 ![多人游戏](GameScreenShots/多人游戏1.png)
 
 ![多人游戏](GameScreenShots/多人游戏2.png)
-
-### 角色选择
-
-![角色选择](GameScreenShots/角色选择.png)
 
 ### AVG对话
 
